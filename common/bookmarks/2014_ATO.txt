@@ -12,6 +12,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
+                UKR_2014
 			}	
 		}
 		

@@ -1,5 +1,170 @@
 #Rework of Ukraine by: Senator, Conteynerrr, Petliura, Belgorodec, MaX1m4Uk
 focus_tree = {
+    id = UKR_2014
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = UKR
+        }
+    }
+
+    focus = {
+        id = UKR_political_crisis
+        icon = GFX_goal_generic_political_pressure
+        x = 0
+        y = 0
+        cost = 7
+        completion_reward = {
+            add_stability = -0.05
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = UKR_euromaidan
+        icon = GFX_goal_generic_mass_protests
+        prerequisite = { focus = UKR_political_crisis }
+        x = 0
+        y = 1
+        cost = 14
+        completion_reward = {
+            add_stability = -0.03
+            add_war_support = 0.05
+        }
+    }
+
+    focus = {
+        id = UKR_flight_of_president
+        icon = GFX_goal_generic_coup
+        prerequisite = { focus = UKR_euromaidan }
+        x = 0
+        y = 2
+        cost = 7
+        completion_reward = {
+            add_political_power = 100
+            add_stability = -0.05
+        }
+    }
+
+    focus = {
+        id = UKR_interim_government
+        icon = GFX_goal_generic_political_reform
+        prerequisite = { focus = UKR_flight_of_president }
+        x = 0
+        y = 3
+        cost = 10
+        completion_reward = {
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = UKR_crimea_crisis
+        icon = GFX_goal_generic_territorial_claim
+        prerequisite = { focus = UKR_interim_government }
+        x = -1
+        y = 4
+        cost = 10
+        completion_reward = {
+            add_war_support = 0.05
+            add_stability = -0.05
+        }
+    }
+
+    focus = {
+        id = UKR_ato
+        icon = GFX_goal_generic_army_attack
+        prerequisite = { focus = UKR_interim_government }
+        x = 1
+        y = 4
+        cost = 21
+        completion_reward = {
+            add_war_support = 0.10
+            army_experience = 15
+        }
+    }
+
+    focus = {
+        id = UKR_volunteer_battalions
+        icon = GFX_goal_generic_military_sphere
+        prerequisite = { focus = UKR_ato }
+        x = 1
+        y = 5
+        cost = 14
+        completion_reward = {
+            manpower = 50000
+            add_stability = -0.02
+        }
+    }
+
+    focus = {
+        id = UKR_minsk_agreements
+        icon = GFX_goal_generic_diplomacy
+        prerequisite = { focus = UKR_ato }
+        x = 0
+        y = 6
+        cost = 21
+        completion_reward = {
+            add_war_support = -0.10
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = UKR_army_reform
+        icon = GFX_goal_generic_army_doctrine
+        prerequisite = { focus = UKR_minsk_agreements }
+        x = 0
+        y = 7
+        cost = 35
+        completion_reward = {
+            army_experience = 30
+            land_doctrine_cost_factor = -0.1
+        }
+    }
+
+    focus = {
+        id = UKR_nato_standards
+        icon = GFX_goal_generic_alliance
+        prerequisite = { focus = UKR_army_reform }
+        x = 0
+        y = 8
+        cost = 50
+        completion_reward = {
+            army_experience = 40
+            planning_speed = 0.1
+        }
+    }
+
+    focus = {
+        id = UKR_anti_corruption
+        icon = GFX_goal_generic_intelligence_exchange
+        prerequisite = { focus = UKR_army_reform }
+        x = -1
+        y = 8
+        cost = 35
+        completion_reward = {
+            add_stability = 0.10
+            add_political_power = -50
+        }
+    }
+
+    focus = {
+        id = UKR_prepare_revenge
+        icon = GFX_goal_generic_major_war
+        prerequisite = { focus = UKR_nato_standards }
+        x = 1
+        y = 9
+        cost = 50
+        completion_reward = {
+            add_war_support = 0.15
+            army_experience = 25
+        }
+    }
+}
+
+focus_tree = {
 	id = National_focuses_of_Ukraine
 	continuous_focus_position = {
 		x = 10
