@@ -1,4 +1,4 @@
-name="East Showdown [DEV]"
+name="East Showdown [DEV] FORK"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/general"

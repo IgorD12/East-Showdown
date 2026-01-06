@@ -5,7 +5,12 @@ state = {
 	
 	state_category = small_town 
 	history = { 
-		owner = RUS 
+		owner = RUS
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		} 
 		
 		victory_points = { 399 5 }
 		victory_points = { 3201 10 }

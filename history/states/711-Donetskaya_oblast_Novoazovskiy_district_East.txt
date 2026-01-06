@@ -5,11 +5,23 @@ state = {
 	
 	state_category = rural 
 	history = { 
-		owner = DPR 
+
+		owner = UKR
+		controller = UKR
+		add_core_of = UKR
 		
 		victory_points = { 10091 10 }
 		victory_points = { 10656 5 }
 		victory_points = { 14567 2 }
+
+		history = {
+
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		}
+	}
 		
 		buildings = { 
 			electrical_substation = 1 
@@ -25,9 +37,6 @@ state = {
 			14598 = { bunker = 5 }
 			18493 = { bunker = 6 }
 		}
-		
-		add_core_of = DPR 
-		add_claim_by = UKR 
 	}
 	provinces = { 1492 1622 1792 2264 7451 8487 10091 10656 14396 14567 14598 18493 }
 }

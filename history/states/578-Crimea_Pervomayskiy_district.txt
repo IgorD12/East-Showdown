@@ -6,6 +6,11 @@ state = {
 	state_category = pastoral 
 	history = { 
 		owner = RUS 
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		}
 		
 		victory_points = { 7616 5 }
 		victory_points = { 8093 5 }

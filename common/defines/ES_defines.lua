@@ -1,4 +1,4 @@
-NDefines.NGame.START_DATE = "2022.1.1.1"
+NDefines.NGame.START_DATE = "2014.1.1.1"
 NDefines.NGame.END_DATE = "2026.1.1.1"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 0.514					-- Yes we did the math
 NDefines.NGame.SAVE_VERSION = 19								-- 0.6.2.0

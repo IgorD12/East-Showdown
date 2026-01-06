@@ -9,6 +9,11 @@ state = {
 	resources = { steel = 45 } 
 	history = { 
 		owner = LPR 
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		}
 		
 		victory_points = { 524 20 }
 		victory_points = { 4914 3 }

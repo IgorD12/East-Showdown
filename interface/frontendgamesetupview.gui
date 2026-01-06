@@ -27,6 +27,12 @@ guiTypes = {
 			position = { x = -183 y = -3 }
 			alwaystransparent = yes
 		}
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_select_date_1939_test_6"
+			position = { x = -83 y = -3 }
+			alwaystransparent = yes
+		}
 
 		instantTextBoxType = {
 			name = "date"   #{ x = 22 y = 147 }

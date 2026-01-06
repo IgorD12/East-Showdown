@@ -11,6 +11,14 @@ state = {
 	} 
 	history = { 
 		owner = DPR 
+		add_core_of = DPR
+
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		}
+		
 		
 		victory_points = { 5924 1 }
 		victory_points = { 6669 2 }

@@ -6,6 +6,12 @@ state = {
 	state_category = border_zone 
 	history = { 
 		owner = RUS 
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		}
+		
 		
 		buildings = { 
 			infrastructure = 3 

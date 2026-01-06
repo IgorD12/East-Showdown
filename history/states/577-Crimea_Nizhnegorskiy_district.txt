@@ -6,6 +6,11 @@ state = {
 	state_category = town 
 	history = { 
 		owner = RUS 
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		}
 		
 		victory_points = { 1451 5 }
 		victory_points = { 10608 5 }

@@ -10,6 +10,14 @@ state = {
 	}
 	history = { 
 		owner = DPR 
+		add_core_of = DPR
+
+		2014.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+		}
+		
 		
 		buildings = { 
 			electrical_substation = 1 
