@@ -32,6 +32,39 @@ characters = {
 			}
 		}
 	}
+	victor_yanukocih = {
+		name = victor_yanukovich
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/UKR/UKR_RO_Yanukovich.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = oligarchy
+			traits = {
+				putin_friend
+				oligarch
+			}
+		}
+		field_marshal = {
+			# THIS IS NEEDED FOR THE PUTIN MISSIONS OR IT WONT APPEAR ITS PORTRAIT IN THE EVENTS
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+			visible = {
+				UKR = {
+					exists = no
+				}
+			}
+		}
+	}
+
 	SNBO_leader = {
 		name = SNBO_leader
 		portraits = {
@@ -44,6 +77,22 @@ characters = {
 			expire = "1965.1.1"
 			ideology = controlled_democracy
 			traits = {
+			}
+		}
+	}
+	victor_yanukocih = {
+		name = victor_yanukovich
+		portraits = {
+			civilian = {
+				large = "/gfx/leaders/UKR/UKR_RO_Yanukovich.dds"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = oligarchy
+			traits = {
+				putin_friend
+				oligarch
 			}
 		}
 	}

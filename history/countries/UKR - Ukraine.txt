@@ -14,6 +14,17 @@ set_country_flag = news_pro_ukrainian_flag
 
 complete_national_focus = Eastern_crisis
 
+if = {
+	limit = { has_dlc = "Together for Victory" }
+	set_autonomy = {
+		target = CRI
+		autonomous_state = autonomy_autonomous_region
+	}
+	else = {
+		puppet = CRI
+	}
+}
+
 set_technology = {
 	imv_civil_0 = 1
 	imv_civil_1 = 1
@@ -276,36 +287,10 @@ add_mastery = {
 }
 
 add_ideas = {
-	limited_conscription
-	civilian_economy
-	mixed_media
-	basic_police_headquarters
-	standard_funding
-	increased_decentralization
-	unitary_republic
-	service_age_50
-	eu_trade_agreements
-	birth_rate3
-	rescue_increased
-	security_large
-	UKR_european_dream
-	UKR_democratic_mirage
-	power_of_oligarchs_2
-	UKR_sick_economy
-	UKR_Agranary_of_Europe
-	UKR_derjava_vsmartfone
-	
-	UKR_air_forces
-	Worker_in_Poland
-	UKR_VPK
-	Big_bud
-	USAID
-	Euromaidan_kal
-	UKR_Russophile_opposition
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2019.4.20"
 	election_frequency = 60
 	elections_allowed = yes
@@ -359,6 +344,7 @@ add_named_threat = {
 
 #Politicians
 recruit_character = volodymir_zelenskyy
+recruit_character = victor_yanukovich
 recruit_character = UKR_viktor_medvedchuk
 recruit_character = UKR_Boiko_Yurii
 recruit_character = UKR_Peter_Nikolaevich
